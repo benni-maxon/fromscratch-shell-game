@@ -6,9 +6,9 @@
 
 ##
 
-*get DOM elements
-*initialize state
-*create functions
-*handleGuess
-*resetStyles
-*guessesDisplay
+-   get DOM elements
+-   initialize state
+-   create functions
+    -   handleGuess
+    -   resetStyles
+    -   guessesDisplay
