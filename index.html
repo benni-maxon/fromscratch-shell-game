@@ -24,16 +24,43 @@
 
 </head>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+body>
+        <header>
+            <div>
+                <img src="" />
+            </div>
+        </header>
+        <main>
+            <section class="main-section">
+                <h2>Where's the pearl?</h2>
+                <div class="hiding-places">
+                    <div id="shell1" class="hiding-place">
+                        <img src="./assets/shell.png" class="hiding-img" />
+                        <button id="button1">Here?</button>
+                    </div>
+                    <div id="shell2" class="hiding-place">
+                        <img src="./assets/shell.png" class="hiding-img" />
+                        <button id="button2">Or Here?</button>
+                    </div>
+                    <div id="shell3" class="hiding-place">
+                        <img src="./assets/shell.png" class="hiding-img" />
+                        <button id="button3">Perhaps Here?</button>
+                    </div>
+                </div>
+                <div>You guessed correctly <span id="wins">0</span> times</div>
+                <div>and incorrectly <span id="losses">0</span> times</div>
+                <div>out of</div>
+                <div><span id="total">0</span> games.</div>
+                <div>
+                    <button id="reset-button">Reset Score</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+        </footer>
 
-    <main>
-
-    </main>
-
-</body>
+        <script type="module" src="./app.js"></script>
+    </body>
 
 </html>
