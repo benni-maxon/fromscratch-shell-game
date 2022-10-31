@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
-
-</head>
-
-body>
+    <body>
         <header>
             <div>
                 <img src="" />
@@ -34,17 +32,17 @@ body>
             <section class="main-section">
                 <h2>Where's the pearl?</h2>
                 <div class="hiding-places">
-                    <div id="shell1" class="hiding-place">
+                    <div id="one-container" class="hiding-place">
                         <img src="./assets/shell.png" class="hiding-img" />
-                        <button id="button1">Here?</button>
+                        <button id="button-one">Here?</button>
                     </div>
-                    <div id="shell2" class="hiding-place">
+                    <div id="two-container" class="hiding-place">
                         <img src="./assets/shell.png" class="hiding-img" />
-                        <button id="button2">Or Here?</button>
+                        <button id="button-two">Or Here?</button>
                     </div>
-                    <div id="shell3" class="hiding-place">
+                    <div id="three-container" class="hiding-place">
                         <img src="./assets/shell.png" class="hiding-img" />
-                        <button id="button3">Perhaps Here?</button>
+                        <button id="button-three">Perhaps Here?</button>
                     </div>
                 </div>
                 <div>You guessed correctly <span id="wins">0</span> times</div>
@@ -62,5 +60,4 @@ body>
 
         <script type="module" src="./app.js"></script>
     </body>
-
 </html>
