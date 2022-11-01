@@ -36,13 +36,8 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
     color: rgb(255, 255, 255);
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -56,23 +51,14 @@ h1 {
     margin-left: auto;
 }
 
+header div img {
+    width: 40px;
+    padding-top: 5px;
+}
+
 p {
-    margin: var(--gutter);
-}
-
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
-button {
-    margin: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header div {
@@ -97,4 +83,20 @@ button {
 button:hover {
     background-color: rgb(76, 169, 189);
     color: white;
+}
+
+#score {
+    border: 2px dotted rgb(198, 156, 101);
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 1.1em;
+}
+
+#score p {
+    text-align: center;
+}
+
+#score button {
+    position: relative;
+    left: 55px;
 }

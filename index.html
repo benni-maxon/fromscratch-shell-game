@@ -26,35 +26,38 @@
     <body>
         <header>
             <div>
-                <h1>~ Where's the pearl? ~</h1>
+                <h1>
+                    <img src="./assets/pearlshell.PNG" alt="pixel art shell with pearl" />
+                    Where's the pearl?
+                    <img src="./assets/pearlshell.PNG" alt="pixel art shell with pearl" />
+                </h1>
             </div>
         </header>
         <main>
             <section class="main-section">
                 <div class="hiding-places">
                     <div id="one-container" class="hiding-place">
-                        <img src="./assets/shell.png" class="hiding-img" />
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
                         <button id="button-one">Here?</button>
                     </div>
                     <div id="two-container" class="hiding-place">
-                        <img src="./assets/shell.png" class="hiding-img" />
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
                         <button id="button-two">Or Here?</button>
                     </div>
                     <div id="three-container" class="hiding-place">
-                        <img src="./assets/shell.png" class="hiding-img" />
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
                         <button id="button-three">Perhaps Here?</button>
                     </div>
                 </div>
-                <div>You guessed correctly <span id="wins">0</span> times</div>
-                <div>and incorrectly <span id="losses">0</span> times</div>
-                <div>out of</div>
-                <div><span id="total">0</span> games.</div>
-                <div>
+                <div id="score">
+                    <p>You guessed correctly <span id="wins">0</span> times</p>
+                    <p>and incorrectly <span id="losses">0</span> times</p>
+                    <p>out of</p>
+                    <p><span id="total">0</span> games.</p>
                     <button id="reset-button">Reset Score</button>
                 </div>
             </section>
         </main>
-        <footer></footer>
 
         <script type="module" src="./app.js"></script>
     </body>
