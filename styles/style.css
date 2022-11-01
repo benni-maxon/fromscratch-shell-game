@@ -60,8 +60,9 @@ header div {
 button {
     background-color: rgb(76, 169, 189);
     color: black;
-    padding: 15px;
+    padding: 5px 10px 0px 10px;
     text-align: center;
+    font-family: fantasy;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -88,5 +89,5 @@ button:hover {
 
 #score button {
     position: relative;
-    left: 55px;
+    left: 60px;
 }
