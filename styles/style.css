@@ -3,7 +3,7 @@ body {
     --gutter: 30px;
 
     font-family: fantasy;
-    background-color: rgb(155, 114, 141);
+    background-color: rgb(188, 134, 235);
 }
 
 main {
@@ -15,7 +15,7 @@ main {
 }
 
 section {
-    background-color: rgb(94, 143, 128);
+    background-color: rgb(215, 150, 228);
     width: 1000px;
     max-width: 80%;
     display: flex;
@@ -28,7 +28,7 @@ section {
 }
 
 header {
-    background-color: rgb(76, 169, 189);
+    background-color: rgb(102, 204, 227);
     height: var(--header-height);
     color: rgb(255, 255, 255);
 }
@@ -58,7 +58,7 @@ header div {
 }
 
 button {
-    background-color: rgb(76, 169, 189);
+    background-color: rgb(181, 76, 189);
     color: black;
     padding: 5px 10px 0px 10px;
     text-align: center;
@@ -72,12 +72,12 @@ button {
 }
 
 button:hover {
-    background-color: rgb(76, 169, 189);
+    background-color: rgb(181, 76, 189);
     color: white;
 }
 
 #score {
-    border: 2px dotted rgb(198, 156, 101);
+    border: 2px dotted rgb(181, 76, 189);
     padding: 15px;
     border-radius: 20px;
     font-size: 1.1em;
