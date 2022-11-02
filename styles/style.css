@@ -91,3 +91,23 @@ button:hover {
     position: relative;
     left: 60px;
 }
+
+#dark-mode-button {
+    margin-top: 30px;
+}
+
+header .dark_mode {
+    background-color: rgb(66, 66, 66);
+}
+
+section .dark_mode {
+    background-color: rgb(20, 2, 29);
+}
+
+body .dark_mode {
+    background-color: black;
+}
+
+button .dark_mode {
+    color: rgb(60, 60, 182);
+}
