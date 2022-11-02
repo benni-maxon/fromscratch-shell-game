@@ -4,6 +4,12 @@ const buttonTwo = document.getElementById('button-two');
 const buttonThree = document.getElementById('button-three');
 const resetScoreButton = document.getElementById('reset-button');
 
+// const darkModeButton = document.getElementById('dark-mode-button');
+// const header = document.getElementById('header');
+// const button = document.getElementsByClassName('button');
+// const body = document.getElementsById('body');
+// const section = document.getElementId('section');
+
 const oneContainer = document.getElementById('one-container');
 const twoContainer = document.getElementById('two-container');
 const threeContainer = document.getElementById('three-container');
@@ -42,6 +48,13 @@ resetScoreButton.addEventListener('click', () => {
     resetStyles();
     guessesDisplay();
 });
+
+// darkModeButton.addEventListener('click', () => {
+//     header.classList.toggle('dark_mode');
+//     button.classList.toggle('dark_mode');
+//     body.classList.toggle('dark_mode');
+//     section.classList.toggle('dark_mode');
+// });
 
 /* Display Functions */
 function handleGuess(correctSpot, userGuess) {
