@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Shell Game</title>
+        <link rel="icon" type="image/x-icon" href="./assets/pearlshell.PNG" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/home.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <img src="./assets/pearlshell.PNG" alt="pixel art shell with pearl" />
+                    Where's the Pearl?&nbsp;
+                    <img src="./assets/pearlshell.PNG" alt="pixel art shell with pearl" />
+                </h1>
+            </div>
+        </header>
+        <main>
+            <section class="main-section">
+                <div class="hiding-places">
+                    <div id="one-container" class="hiding-place">
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
+                        <button class="" id="button-one">Here?</button>
+                    </div>
+                    <div id="two-container" class="hiding-place">
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
+                        <button id="button-two">Or Here?</button>
+                    </div>
+                    <div id="three-container" class="hiding-place">
+                        <img src="./assets/shell.png" alt="pixel art shell" class="hiding-img" />
+                        <button id="button-three">Perhaps Here?</button>
+                    </div>
+                </div>
+                <div id="score">
+                    <p>You guessed correctly <span id="wins">0</span> times</p>
+                    <p>and incorrectly <span id="losses">0</span> times</p>
+                    <p>out of</p>
+                    <p><span id="total">0</span> games.</p>
+                    <button id="reset-button">Reset Score</button>
+                </div>
+                <button id="dark-mode-button">Dark Mode</button>
+            </section>
+        </main>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <script type="module" src="./app.js"></script>
+    </body>
 </html>
